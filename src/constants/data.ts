@@ -1,12 +1,12 @@
 import images from './images';
 
-export interface Wine {
+export interface IWine {
   title: string;
   price: string;
   tags: string;
 }
 
-const wines = [
+const wines: IWine[] = [
   {
     title: 'Chapel Hill Shiraz',
     price: '$56',
@@ -34,7 +34,12 @@ const wines = [
   },
 ];
 
-const cocktails = [
+export interface ICocktail {
+  title: string;
+  price: string;
+  tags: string;
+}
+const cocktails: ICocktail[] = [
   {
     title: 'Aperol Sprtiz',
     price: '$20',
@@ -62,7 +67,12 @@ const cocktails = [
   },
 ];
 
-const awards = [
+export interface IAward {
+  imgUrl: string;
+  title: string;
+  subtitle: string;
+}
+const awards: IAward[] = [
   {
     imgUrl: images.award02,
     title: 'Bib Gourmond',
