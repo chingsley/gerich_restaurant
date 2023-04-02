@@ -2,6 +2,7 @@ import React from 'react';
 import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
 
 import { FooterOverlay, Newsletter } from '../../components';
+import Img from '../../components/Img/Img';
 import { images } from '../../constants';
 
 import './Footer.css';
@@ -20,12 +21,12 @@ const Footer = () => (
       </div>
 
       <div className='app__footer-links_logo'>
-        <img src={images.gericht} alt='footer_logo' />
+        <Img src={images.gericht} alt='footer_logo' />
         <p className='p__opensans'>
           &quot;The best way to find yourself is to lose yourself in the service
           of others.&quot;
         </p>
-        <img
+        <Img
           src={images.spoon}
           className='spoon__img'
           style={{ marginTop: 15 }}
