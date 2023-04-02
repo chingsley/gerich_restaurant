@@ -1,5 +1,6 @@
 import React from 'react';
 import { SubHeading } from '../../components';
+import Img from '../../components/Img/Img';
 import { images, data } from '../../constants';
 
 import './Laurels.css';
@@ -9,22 +10,22 @@ interface AwardCardProps {
     imgUrl: string;
     title: string;
     subtitle: string;
-  }
+  };
 }
 
 const AwardCard: React.FC<AwardCardProps> = (props) => {
-  const { award: { imgUrl, title, subtitle }} = props;
+  const { award: { imgUrl, title, subtitle } } = props;
 
   return (
     <div className="app__laurels_awards-card">
-      <img src={imgUrl} alt="awards" />
+      <Img src={imgUrl} alt="awards" />
       <div className="app__laurels_awards-card_content">
-        <p className="p__cormorant" style={{ color: '#DCCA87'}}>{title}</p>
+        <p className="p__cormorant" style={{ color: '#DCCA87' }}>{title}</p>
         <p className="p__cormorant">{subtitle}</p>
       </div>
     </div>
-  )
-}
+  );
+};
 
 const Laurels = () => (
   <div className="app__bg app__wrapper section__padding" id="awards">
@@ -38,7 +39,7 @@ const Laurels = () => (
     </div>
 
     <div className="app__wrapper_img">
-      <img src={images.laurels} alt="laurels_img" />
+      <Img src={images.laurels} alt="laurels_img" />
     </div>
   </div>
 );

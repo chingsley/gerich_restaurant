@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { SubHeading } from '../../components';
+import Img from '../../components/Img/Img';
 import { images } from '../../constants';
 import './Header.css';
 
@@ -14,7 +15,7 @@ const Header = () => (
     </div>
 
     <div className="app__wrapper_img">
-      <img src={images.welcome} alt="header_img" />
+      <Img src={images.welcome} alt="header_img" />
     </div>
   </div>
 );
