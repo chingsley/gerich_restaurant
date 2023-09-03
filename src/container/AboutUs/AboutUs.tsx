@@ -14,7 +14,9 @@ const AboutUs = () => (
       <div className="app__aboutus-content_about">
         <h1 className="headtext__cormorant">About Us</h1>
         <Img src={images.spoon} alt="about_spoon" className="spoon__img" />
-        <p className="p__opensans">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
+        <p className="p__opensans">
+          Whether you're a seafood lover, a steak connoisseur, or a vegetarian at heart, our diverse menu offers a wide range of options to suit every palate.
+        </p>
         <button type="button" className="custom__button">Know More</button>
       </div>
 
@@ -25,7 +27,9 @@ const AboutUs = () => (
       <div className="app__aboutus-content_history">
         <h1 className="headtext__cormorant">Our History</h1>
         <Img src={images.spoon} alt="about_spoon" className="spoon__img" />
-        <p className="p__opensans">Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat. Risus placerat morbi volutpat habitasse interdum mi aliquam In sed odio nec aliquet.</p>
+        <p className="p__opensans">
+          Our talented chefs craft each dish with passion and precision, using the finest ingredients to create culinary masterpieces that will leave you craving for more.
+        </p>
         <button type="button" className="custom__button">Know More</button>
       </div>
     </div>
