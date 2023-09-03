@@ -10,7 +10,11 @@ const Header = () => (
     <div className="app__wrapper_info">
       <SubHeading title="Chase the new flavour" />
       <h1 className="app__header-h1">The Key To Fine Dining</h1>
-      <p className="p__opensans" style={{ margin: '2rem 0' }}>Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus </p>
+      <p className="p__opensans" style={{ margin: '2rem 0' }}>
+        Are you ready for an unforgettable dining experience that tantalizes
+        your taste buds and ignites your senses? Look no further! Gericht
+        is your passport to a world of exquisite flavors and unforgettable moments.
+      </p>
       <button type="button" className="custom__button">Explore Menu</button>
     </div>
 
